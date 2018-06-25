@@ -1,0 +1,42 @@
+James Michael Vrionis
+jvrionis@ucsc.edu
+1562232
+Lab2: Addition and Subtraction 
+Section 1A
+
+
+Purpose:
+To use sequential and combinational logic to sum or subtract a sequence of numbers together.
+
+Procedure:
+The 4 bit keypad sends its information to the mux which is where the 4bits are 
+turned into 6 bits. The Register is made out of 6 D-Flip Flops. A switch on the first page
+can clear the memory. Another switch on the first page allows switches the mode from 
+adding (initial Position) to subtraction (2's compliment). More specifically it changes from
+inverting the bits to addition which is how two's compliment is achieved. A 6 bit adder
+has inputs from the keypad, multiplexer and the register. All of these moving parts come together
+to dispaly numbers 1-9, A-F on two 7-segment LEDs. The clock on the front is basically the 
+execute button, because it allows all these moving parts to work together to add and subtract
+simple numbers. 
+
+Questions:
+1) This lab was really hard. The lack of directions really left me scrambling. I also had trouble 
+with wires not really being connected even though I made sure that I connected them. I'm not 
+sure if this is a problem with the very fine MML software or if it has been my error. Both 
+of these things have caused me alot of frustration this weekend. I added LEDs to see if the 
+correct signals were being sent to the correct place. I also had switches to check my adder, 
+piece by piece, but erased them from the lab because I was literally running out of room.
+
+2) When I subtracted a larger number from smaller number the output on the light was rather 
+weird. It made a U, or what lookied like a U. Im not sure why it did this. I guess it could
+be the lowest value it could display but I'm not entirely sure. I am going to ask the TA 
+in my lab about it on Monday. If it was the lowest value the display had then that would 
+make sense why it did that.
+
+3) When I added two numbers that didnt fit the display seemed to loop back to zero and 
+restart its count. Any time I went "over " the amount it did this. 
+
+
+
+
+

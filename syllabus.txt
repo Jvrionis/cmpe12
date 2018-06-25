@@ -1,0 +1,119 @@
+Course Syllabus
+
+General Info
+
+TTh 3:20PM-4:55PM in ClassroomUnit 002
+
+Office Hours: 
+Mondays 10-11
+
+Wednesdays 10-11
+
+Location: E2-329
+
+TA's:
+Ehsan Hemmati <ehemmati@ucsc.edu>
+Michael Powell <mopowell@ucsc.edu>
+John Kolar <jmkolar@ucsc.edu>
+Maxwell Lichtenstein <mnlichte@ucsc.edu>
+Brandon Luu <bmluu@ucsc.edu>
+
+ 
+
+MSI Tutors:
+Vanessa Putnam <vputnam@ucsc.edu>
+
+Piazza:
+https://piazza.com/ucsc/winter2017/cmpe12l/home 
+
+Lecture Notes and Videos:
+https://classes.soe.ucsc.edu/cmpe012/Winter17/ 
+
+ 
+
+Late Day Forms:
+Homework: https://docs.google.com/a/ucsc.edu/forms/d/e/1FAIpQLScnMUpN5Lz0J6-mSN17hvBL1kmnFO9aA5pSgVxWqCLm6MrChQ/viewform 
+
+Lab: https://docs.google.com/a/ucsc.edu/forms/d/e/1FAIpQLSeNnyPe7853oS6ZVq99g1b20VIKUe-RgZQRdzJ9zu6g5UETrw/viewform 
+
+Who to Contact for Questions:
+First, If it is a general question, use Piazza. There is bound to be someone else with the same question 
+as you and your fellow students are quite good at answering questions.
+
+If it is specific to you (i.e. grades or that nature) please contact The TA in charge of your section 
+first. 
+ 
+I am always available to help as well if needed.  Please prepend all email sent to me with [CMPE12] though 
+to make sure I can see it.
+
+Course Work – CMPE 12
+Attendance is highly recommended for the lectures as the material rapidly builds upon each topic.  The lecture material 
+will be available in the resources area usually before the class.
+
+There will be semiweekly homework assignments which are graded.  The instructor feels strongly that you learn by doing, 
+not be just by reading or listening. There will be a midterm exam and one comprehensive final exam.  There will also be 
+Online Quizzes. No calculators are ever allowed for any exam or quiz, unless explicitly stated.
+
+If you have any disability-related needs, be sure to contact the Disability Resource Center well in advance of any 
+expected need.
+
+Class Evaluation
+The class grade is determined by the following criteria:  Labs (25%), Homework (15%), Quizzes (5%), Midterm Exam (25%),
+ and the Final Exam (30%).  You MUST get at least 50% on the Labs, Midterm and Final to pass the class.
+
+Late Policy
+
+Each student has 3 “free” late days that they can use for any assignment in the class, at any time, without advanced
+permission. Any time you wish to use these late days you must fill out the appropriate form with how much time you 
+wish to use in 6 hour increments, this does not need to occur before you use them. When these late days are used up, 
+late assignments will receive a zero. For this class there will be two sets of late days, one for the labs and one 
+for the homework.
+
+Lab Work – CMPE 12L
+You must be enrolled in CMPE12L to remain in CMPE12. You must pass CMPE12 to pass CMPE12L.  You must pass CMPE12L 
+to pass CMPE12.  You will receive the same grade in the lab as the class.  Attendance in lab section is not 
+required but you must be checked offed in your lab section
+
+The labs will start out with basic hardware design and then transition to programming.  We will be working with 
+two assembly languages in this course based on two processors: a 16-bit RISC type processor, the LC-3, covered 
+in the text book, and a neat 32-bit microcontroller called the Uno32 (Arduino compatible).  
+
+There will be lab assignments throughout the quarter that will have you do logic design or write programs in one 
+of the languages covered in class.  No collaboration is allowed on lab assignments unless explicitly permitted in 
+the assignment write-up.  When permitted, collaboration must be acknowledged and may only be with current course 
+staff or students currently enrolled in CE12L. Failure to give credit when collaboration is allowed is a form of 
+academic dishonesty and can be grounds for failure of the course.  You are not allowed at any point to share 
+actual code with another student, collaboration is the discussion of the topic and how to solve it at a high
+level.
+ 
+Academic Honesty
+Academic honesty is a requirement for the course.  All material produced must be your own independent work; 
+this includes homework/quizzes, exams, and lab assignments. 
+
+What  is  cheating?  It  is  presenting  work  that  is  not  yours  as  your  own.  You  can and  are encouraged
+to discuss and strategize  with your colleagues on the material and labs, but your work should be your own. Copying
+is NEVER acceptable. On  the  labs, cheating  is  sharing  code unless explicitly  told  that  it  is  permitted.  
+If  a  student  is caught cheating in either the class or the lab this will result in an immediate failure in the 
+class and  the  lab.  It  will  be  reported  to  your  college  and  your  department. DO NOT  CHEAT;  it  is  
+not worth it.
+
+
+Acknowledgements
+My thanks to Cyrus Bazeghi and Matthew Guthaus for their many resources.
+
+
+Course Summary:
+ 
+Date	Details
+Mon Jan 16, 2017	Personal Responsibility In The Classroom	due by 11:59pm
+Wed Jan 18, 2017	Homework #1					due by 11:59pm
+Sun Jan 22, 2017	Lab 1: Intro to Logic with Multimedia Logic	due by 11:59pm
+Wed Jan 25, 2017	Homework #2					due by 11:59pm
+Sun Jan 29, 2017	Lab 2: Adding and Subtracting			due by 11:59pm
+Fri Feb 3, 2017		Homework #3					due by 11:59pm
+Sun Feb 19, 2017	Lab 3						due by 11:59pm
+Thu Feb 23, 2017	Midterm						due by 11:59pm
+Sun Feb 26, 2017	Lab 4						due by 11:59pm
+Mon Mar 13, 2017	Lab 5						due by 1am
+Fri Mar 17, 2017	Homework #5					due by 11:59pm
+Mon Mar 20, 2017	Final						due by 11:59pm

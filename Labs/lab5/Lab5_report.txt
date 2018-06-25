@@ -1,0 +1,51 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1504\cocoasubrtf810
+{\fonttbl\f0\froman\fcharset0 Times-Roman;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
+{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;}
+{\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid1\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid1}}
+{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}}
+\paperw11900\paperh16840\margl1440\margr1440\vieww32520\viewh19580\viewkind0
+\deftab720
+\pard\pardeftab720\sl340\sa240\partightenfactor0
+
+\f0\fs29\fsmilli14667 \cf2 \expnd0\expndtw0\kerning0
+James Vrionis\
+Section 1A\
+3-14-17\
+\
+
+\fs24 Purpose:\
+With our time spent in the LC-3, it is time to move on to real hardware, and an assembly language that is used today. This lab will introduce you to the basics of MIPS and running code on an embedded processor. \
+We will do so by writing code, in MIPS assembly, that will light LED\'92s based off button presses and bounce LED\'92s back and forth. \
+\
+Part 1:\
+Read the value of each of the 4 switches (sw1 - sw4) and turn on LD1-LD3 if the corresponding with is \'93on\'94. \cf2 \kerning1\expnd0\expndtw0 R\expnd0\expndtw0\kerning0
+ead the state of the 4 buttons (BTN1 \'96 BTN3) and turn on LD4-LD8 if the corresponding button is being pressed. \
+Unlike the switches, the buttons are \'93momentary\'94, meaning they are have to be held down to be active. \cf2 To achieve this I had to  use code given to us in class and on piazza allowing the ability to read.  I mapped the switches, \
+buttons and less utilizing the section on TRIS(X) in 12.2.2.  Then I loaded the switches (and buttons) to PORTD following this I used a shift to correctly align the LEDs up.  Connecting it all together with TRISE and PORTE \
+the obvious solution for continuous functionality was to loop everything I did.\
+\
+Part 2:\
+
+\fs29\fsmilli14667 In this part I worked with the delays (software and hardware based) of the Uno32 and came up with 16-levels of delay in order to cycle through the LEDs.  As stated in the directions, \
+this will be done with a \'93for-loop\'94, mine being for i=0; i < speedDelay; i++.  The way the LEDs can look as if the are going was accomplished by using the for-loop with delays \
+whilst shifting the bits continually. Shifts would happen until every spot has been reached then repeat.\
+\
+Errata:\
+I had many problems with my connections. For example, when I was testing the \'93Hello World aspect of the lab\'94 It wouldn\'92t work, then I unplugged the usb and plugged it back in and \
+it would miraculously work again,. I did this with the Brandin (Section 1A TA) and we both seemed to be surprised. I continued to have these issues throughout the lab. It was very \
+frustrating, especially during part 2. \
+\
+
+\fs24 \
+ \
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sl340\sa293\partightenfactor0
+\ls1\ilvl0
+\fs29\fsmilli14667 \cf2 \kerning1\expnd0\expndtw0 	\expnd0\expndtw0\kerning0
+\uc0\u8232 \
+\pard\pardeftab720\sl340\sa240\partightenfactor0
+
+\fs24 \cf2   \
+
+\fs29\fsmilli14667 \
+ }

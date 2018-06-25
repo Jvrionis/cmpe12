@@ -1,0 +1,28 @@
+James Vrionis 
+M,W 9-11
+Section 1A
+Lab 3 
+
+Lab Write-Up: Decimal to 2's Complement Conversion Program
+
+Discuss algorithm(s) you implemented and issues doing so. Discuss any particular constructs in
+assembly you made that made the problem easier to solve. Be sure to include how you used
+your flowchart in the actually coding of your program.
+
+Algorithms:
+One algorithm I used was invert and add. i.e. the two’s compliment argorithm. This made the whole program possible.  
+I also used a JSR (Jump to Subroutine) to prepare for multiplication, adding 0 to R1 then 0 to R3.  Making R6 my counter (to remind me R7 was not to be used)  I was ready
+to Multiply with the following: make BRz then, ADD R1, R1, R3 which is necceary to multiply. Lastly, I would decrement R6 by one and set multiplication to to keep going
+until it’s finished. The overall flow of the program is, Greet > START > load usin input > clear registers > Check if input is valid > if valid > perform operations on
+input > change input to 2SC > Output back to console > repeat. The flow chart really helped me set up this struction. It would make figuring out a reason to terminate “my
+loops” easier. This allowed me to establish the flow control that I have within my decimal to binary conversion program.
+
+Purpose: 
+To write a program that converts a decimal integer (that will read a character string and convert to an integer) into two’s compliment binary representation of that
+integer. 
+
+The lab was really challenging. I got LC-3 set up on my computer wrote program. Sadly, for a couple hours I was very confused, wondering why my program wouldn’t run. It
+turns our I wasn’t compiling it. I forgot this necessary step, which led me to dissassemble my code many times over for no reason. I will never forget my struggles and know
+am better prepared for lab 4. 
+
+On a side note I was very impressed with the speed that this program runs at. This was my first time writing in assembly and it was fun. 

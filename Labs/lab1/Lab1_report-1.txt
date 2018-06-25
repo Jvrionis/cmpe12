@@ -1,0 +1,84 @@
+	`James Michael Vrionis
+jvrionis@ucsc.edu
+1562232
+Lab1 
+Section 1A
+
+Purpose: To lean how to use the Multimedia Logic application in Windows to do 
+Schematic entry and Simulation. We will use this program to build simple 
+circuits.
+
+A) I connected my first simple circuit using a switch to a signal reader 
+(input) connected by a wire, then used a signal receiver that was linked 
+up to a LED light (output). The default state of the system is off (0). 
+After the switch is flipped (1) the LED will shine bright. I saved part A 
+in a file named Lab1_tutorial.lgi.
+
+B) I creatied a new file called Lab1.lgi containing parts B, C and D of 
+this Lab. The system I built utilized 4 switchs, all connected to signal 
+senders. Subsequently, signal receivers complete the system connecting
+each corresponding receiver to a 7 Segment LED and LED bulbs, respectively.
+This made it possible to light up the different LED lightbulbs while the 7 
+Segment LED displayed the hexadecimal output (binary->hexadecimal) of the
+switches (when various inputs are invoked). Signal Senders and Receivers 
+helped me keep my system simplistic while making error checking must easier.
+
+C) This system was designed using switches, signal receivers, signal senders, 
+logic gates, and an LED. Many inputs to one output: The main concept here 
+had to do with the different combinations of inputs that resulted in a lit LED 
+lightbulb (on position). Using Boolean Algebra to design this system, the only 
+important inputs resulted with a one as output, that is, (1) a'b'c' + a'b'c + a'bc + abc'. 
+Expression (1) can be simplified to (2) a'b'c + a'c + abc' which is logically equivalent
+to the expression (1). I ended up drawing the (1) even though (2) would suffice. 
+
+D) The Guessing game used a "push button" (switch) connected to signal senders
+B and C. Two switches, A and D were also connected to signal senders. I 
+used the same logic from (C) but added one more "input" to the truth table. 
+Logically, the LED would turn on (output 1) when the any of the following are 
+true: a'b'c'd' + a'bc'd + ab'cd' + abcd. Noticing, the LED is on when ac and 
+bd are the same. 
+
+a) If I didn't have a display to observe the binary inputs in hexadecimal I 
+would need 7 distinct LED outputs arranged like (*). 0 would represent the an 
+off state. 1-9 and ,A-F could be made with different combinations of on and off 
+outputs that would be associated with the LEDs arranged in (*).
+
+(*)      _
+	   | _ |
+	   | _ |	
+	   
+This is how i would approach making a digital screen if I didn't have one.
+
+
+b) The random (not so random) number generator works by seeding two states 
+that affect the two switches. In my case, B and C are seeded' into the 
+logic gates giving the user the ability to control the initial inputs for
+A and D. Putting the system into a state of 00, 01, 10, and 11 (User Choice), 
+then  by pressing the button (over and over again) results in inputs B and 
+C applying a 00, 01, 10, or 11 to the system. That is how it "randomizes "
+the output of the circuit. It is not truly random. Each time I re-ran the 
+program it would work just like it did before. True randomness would imply
+each invocation of the circuit with the same initial start (set by me) for 
+A and D would result in different outcomes when the button is pressed, but,
+I have noticed the same "randomness" applied to the circuit. That means it
+is not random.
+I don't think true randomness (in terms of a random number generator) depends
+on how the data is randomized. As i have read on line, very good randomizer
+monster some natural event like radio active decay and seed data from 
+monitoring that event.
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+

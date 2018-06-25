@@ -1,0 +1,28 @@
+Note: This is just a sample, we are not looking for clones of this
+
+University of California Santa Cruz
+CMPE 12 Lab Section 1: MW TA: A TA
+Lab 5: Intro to LC-3 Programming Environment
+Sample Student
+sample@ucsc.edu
+xx/xx/20xx
+
+Purpose
+The objective of this lab was to familiarize ourselves with the LC-3 editor by making a simple Hello World type program.
+
+Procedure
+Part A
+We began by familiarizing ourselves with the syntax of the LC3Editor by making 2 corrections to an almost functional program. The first error found was one of initialization. In order to ensure that the values stored in the registers we are utilizing are not dummy values, we must zero them out unless we are overwriting with a load. R1 is added with R0 before it is initialized to 0. To fix this, we AND the current contents of R1 with zero, and store that result in R1 in order to ensure that the value in R1 is 0.
+The second error had to do with variable naming. At the end of the program a variable SUM is loaded into R1. Originally there is no variable with the name SUM. To fix this we either change SUM to the appropriate name, or change the name of the appropriate variable to SUM.
+
+Part B
+The objective now was to print out “Hello World, my name is Ivonne Fajardo!!” 5 times using a loop. This allowed us to build our first program from scratch. To ensure effective coding a flow chart was made beforehand. The key parts of the program are as follows:
+
+1. Counter stored in register that counts down from 5
+2. String of text stored in R0 to utilize the PUTS instruction
+3. A loop that checks the counter
+
+We initialized our memory position to x3000 using the .ORIG directive. We then initialized our variables under the TRAP x25(HALT) instruction. In between these two the variables were loaded into the appropriate registers, and a for-loop was made using the BRz, and BR instruction that exited the loop if R1 had diminished to 0.
+
+Results/Analysis
+This exercise helped familiarize me with the syntax of the LC-3 and basic conventions. The only problem that arose was trying to reload an edited file into the simulator. At one point the simulator confused the edited program and began running an infinite loop until it crashed. To avoid this I will be sure to build, re-upload and then re-execute each time.
